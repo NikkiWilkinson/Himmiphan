@@ -54,6 +54,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\characterMovement.cs" />
+     <Compile Include="Assets\Dialogue.cs" />
+     <Compile Include="Assets\DialogueManager.cs" />
+     <Compile Include="Assets\DialogueTrigger.cs" />
      <Compile Include="Assets\MainMenu.cs" />
      <Compile Include="Assets\NPC.cs" />
      <Compile Include="Assets\Player.cs" />
