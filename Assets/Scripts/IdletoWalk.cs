@@ -18,9 +18,7 @@ public class IdletoWalk : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        InputY = Input.GetAxis("Vertical");
-        InputX = Input.GetAxis("Horizontal");
-        animator.SetFloat("InputY", InputY);
-        animator.SetFloat("InputX", InputX);
+        float move = Input.GetAxis("Vertical");
+        animator.SetFloat("Speed", move);
     }
 }

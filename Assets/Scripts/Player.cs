@@ -22,7 +22,7 @@ public class Player : MonoBehaviour
 		if(triggeringPerson && Input.GetKeyDown(KeyCode.E))
 		{
 			triggeringPerson = false;
-			print("Aw, a little girl! Are you lost?");
+			//print("Aw, a little girl! Are you lost?");
 		}
 	}
 
